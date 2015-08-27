@@ -1,0 +1,69 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #676858;
+	font-weight: 300;
+	background-color: #f9f9f9;
+}
+
+h4 {
+	text-align: right;
+}
+
+p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title {
+	margin-top: 20px;
+	width: 80px;
+}
+
+.text-project {
+	text-align: center;
+}
+
+.title-super {
+	text-align: right;
+}
+
+.displayed {
+	display: block;
+	margin: 0 auto;
+}
+
+hr {
+	border: 2px solid #bcbbbb;
+}
+
+@media screen and (max-width: 550px) {
+
+	.title-super {
+		font-size: 20px;
+	}
+
+	.front {
+		font-size: 10px;
+	}
+
+	.title {
+		width: 50px;
+	}
+
+	.text-muted {
+		font-size: 20px;
+	}
+
+	.text-project {
+		font-size: 20px;
+	}
+
+}
